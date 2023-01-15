@@ -4,9 +4,8 @@
 /* eslint-disable react/react-in-jsx-scope */
 /* eslint-disable @typescript-eslint/no-unused-vars */
 /* eslint-disable prettier/prettier */
-import { Image, Text, View } from 'react-native';
+import { Image, Text, View, TouchableOpacity } from 'react-native';
 import { SimplePokemon } from '../interfaces/pokemonInterfaces';
-import { TouchableOpacity } from 'react-native-gesture-handler';
 import { styleCardPokemon, styles, widowWidth } from '../theme/appTheme';
 import { FadeInImage } from './FadeInImage';
 import { useEffect, useRef, useState } from 'react';
