@@ -1,3 +1,8 @@
+# Para ejecutar el proyecto
+# 1.- Clonar el Proyecto
+# 2 .- ejecute yarn install o yarn 
+# 3 .- Si se encuentra en una MAC puede ejecutar yarn run ios y si esta en pc yarn run android
+# NOTA: recuerde que debe tener configurado su ambiente para desarrollar en react-native, no olvide ejecutar en apple npx pod-install 
 # Front End Test
 * Para el siguente aplicativo , se esta postulando para desarrollador de react native, por lo que em parecido extraño el diseno en Web
 * Hice lo mejor posible adaptando la pantalla con un TabBottom y al ser movil no se requiere de un navegador entre paginas, consideré para este caso que un lazy load basado en una referencia (useRef), era lo necesario para que se pueda realizar con el gesto hacia abajo la carga de mas items
