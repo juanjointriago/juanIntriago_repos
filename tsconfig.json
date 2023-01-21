@@ -7,8 +7,8 @@
 
     /* Completeness */
     //"skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
+  },
+  "typeAcquisition": {
+    "include": ["jest"]
   }
-  // "typeAcquisition": {
-  //   "include": ["jest"]
-  // }
 }

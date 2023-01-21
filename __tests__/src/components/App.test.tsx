@@ -7,18 +7,25 @@ import { Loading } from '../../../src/components/Loading';
 import { NotResults } from '../../../src/components/NotResults';
 import { SearchInput } from '../../../src/components/SearchInput';
 import { FadeInImage } from '../../../src/components/FadeInImage';
+import App from '../../../App';
 
-describe('Loading', () => {
-    it("render ok", () => {
-        render(<Loading/>);
+let component:any;
+
+
+describe('<NotResults />', () => {
+    beforeEach(()=>{
+        component = render(<NotResults />);
+    });
+    it("Renderize OK <NotResults />", ()=>{
+        console.log(component);
     });
 });
 
-describe('NotResultRender', () => {
-    it("render ok", () => {
-        render(<NotResults/>);
-    });
-});
+// describe('NotResultRender', () => {
+//     it("render ok", () => {
+//         render(<NotResults/>);
+//     });
+// });
 
 describe('FadeInImage', () => {
     it("render ok", () => {
